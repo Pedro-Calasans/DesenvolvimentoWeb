@@ -1,0 +1,98 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, cursive, "Times Roman";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header {
+    background: rgb(255, 236, 61, 0.4);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+    align-items: center;
+}
+
+.grid2 div img {
+    width: 100%;
+}
+
+.grid2 div p {
+    padding: 10px;
+    font-size: 0.5em;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-gap: 20px;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.grid2filha > div {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: right;
+    font-size: 0.5em;
+}
+
+@media (max-width: 600px) {
+    .grid2 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid2filha {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .grid2filha > div {
+        flex: 1 0 200px;
+        margin: 0 auto;
+    }
+
+    .grid1filha {
+        grid-column: 1;
+        grid-row: 3 / 4;
+        border-top: 10px solid tomato;
+        border-bottom: 10px solid tomato;
+        text-align: justify;
+    }
+
+    div.grid1filha > p {
+        font-family: "Dancing Script", cursive;
+    }
+
+    .grid2filha div p {
+        background: rgb(255, 38, 0);
+        color: white;
+        margin: 10px;
+        text-align: center;
+    }
+}
