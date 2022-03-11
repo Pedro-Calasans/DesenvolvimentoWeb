@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS",Arial, Helvetica, sans-serif;
+    background: #fffdfd;
+ 
+}
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #F7b600;	
+	
+}
+
+a:hover{
+	text-decoration: underline;
+}
+header{ 
+  background-image: url(imagens/header.jpg);
+  background-repeat: no-repeat;
+  height: 22.5vh;
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 10px;
+}
+
+.logo1{
+    background-color: rgb(255, 60, 0) ;
+    margin: 20px;
+    padding: 5px;
+    height: 10vh;
+    border: 1px solid gray;
+}
+
+h3{
+	color: #fff5f5;
+	padding: 5px;
+}
+
+footer{
+  text-align: center;
+  border: 1px solid gray;
+  font-size: small;
+}
