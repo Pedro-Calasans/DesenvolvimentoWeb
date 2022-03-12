@@ -19,13 +19,11 @@ a:link, a:visited{
 a:hover{
 	text-decoration: underline;
 }
-header{ 
-  background-image: url(imagens/header.jpg);
-  background-repeat: no-repeat;
-  height: 22.5vh;
-  border: 1px solid gray;
+header{
   margin: 20px;
-  padding: 10px;
+  height: 120px;
+  width: auto;
+  border: 1px solid gray;
 }
 
 .logo1{
@@ -34,6 +32,11 @@ header{
     padding: 5px;
     height: 10vh;
     border: 1px solid gray;
+}
+.img-logo{
+  right: auto;
+  float: left;
+  position: relative;
 }
 
 h3{
@@ -45,4 +48,6 @@ footer{
   text-align: center;
   border: 1px solid gray;
   font-size: small;
+  padding: 10px;
+  margin: 20px;
 }
